@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	
+	<servlet>
+		
+		<servlet-name>addlibrarianservlet</servlet-name>
+		<servlet-class>addlibrarianservlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>deletelibrarianservlet</servlet-name>
+		<servlet-class>deletelibrarianservlet</servlet-class>
+	</servlet>
+	<servlet>
+		
+		<servlet-name>verifyadminservlet</servlet-name>
+		<servlet-class>verifyadminservlet</servlet-class>
+	</servlet>
+	<servlet>
+		
+		<servlet-name>verifylibrarianservlet</servlet-name>
+		<servlet-class>verifylibrarianservlet</servlet-class>
+	</servlet>
+	<servlet>
+		
+		<servlet-name>addmemberservlet</servlet-name>
+		<servlet-class>addmemberservlet</servlet-class>
+	</servlet>
+	<servlet>
+		
+		<servlet-name>deletememberservlet</servlet-name>
+		<servlet-class>deletememberservlet</servlet-class>
+	</servlet>
+	<servlet>
+		
+		<servlet-name>viewmemberservlet</servlet-name>
+		<servlet-class>viewmemberservlet</servlet-class>
+	</servlet>
+	<servlet>
+		
+		<servlet-name>viewallmemberservlet</servlet-name>
+		<servlet-class>viewallmemberservlet</servlet-class>
+	</servlet>
+	<servlet>
+		
+		<servlet-name>issuebookservlet</servlet-name>
+		<servlet-class>issuebookservlet</servlet-class>
+	</servlet>
+	<servlet>
+		
+		<servlet-name>addbookservlet</servlet-name>
+		<servlet-class>addbookservlet</servlet-class>
+	</servlet>
+	<servlet>
+		
+		<servlet-name>deletebookservlet</servlet-name>
+		<servlet-class>deletebookservlet</servlet-class>
+	</servlet>
+	<servlet>
+		
+		<servlet-name>returnbookservlet</servlet-name>
+		<servlet-class>returnbookservlet</servlet-class>
+	</servlet>
+	<servlet>
+		
+		<servlet-name>viewissuedbookservlet</servlet-name>
+		<servlet-class>viewissuedbookservlet</servlet-class>
+	</servlet>
+	<servlet>
+		
+		<servlet-name>viewallbookservlet</servlet-name>
+		<servlet-class>viewallbookservlet</servlet-class>
+	</servlet>
+	<servlet>
+		
+		<servlet-name>updatememberservlet</servlet-name>
+		<servlet-class>updatememberservlet</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>updatememberservlet</servlet-name>
+		<url-pattern>/updatememberservlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>viewallbookservlet</servlet-name>
+		<url-pattern>/viewallbookservlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>viewissuedbookservlet</servlet-name>
+		<url-pattern>/viewissuedbookservlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>returnbookservlet</servlet-name>
+		<url-pattern>/returnbookservlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>deletebookservlet</servlet-name>
+		<url-pattern>/deletebookservlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>addbookservlet</servlet-name>
+		<url-pattern>/addbookservlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>issuebookservlet</servlet-name>
+		<url-pattern>/issuebookservlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>viewallmemberservlet</servlet-name>
+		<url-pattern>/viewallmemberservlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>viewmemberservlet</servlet-name>
+		<url-pattern>/viewmemberservlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>deletememberservlet</servlet-name>
+		<url-pattern>/deletememberservlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>addmemberservlet</servlet-name>
+		<url-pattern>/addmemberservlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>addlibrarianservlet</servlet-name>
+		<url-pattern>/addlibrarianservlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>deletelibrarianservlet</servlet-name>
+		<url-pattern>/deletelibrarianservlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>verifyadminservlet</servlet-name>
+		<url-pattern>/verifyadminservlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>verifylibrarianservlet</servlet-name>
+		<url-pattern>/verifylibrarianservlet</url-pattern>
+	</servlet-mapping>
+</web-app>
